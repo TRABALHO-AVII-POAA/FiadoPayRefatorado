@@ -28,6 +28,10 @@ public class PaymentResponseDTO {
     this.updatedAt = updatedAt;
   }
 
+  public PaymentResponseDTO() {
+
+  }
+
   public BigDecimal getAmountOriginal() {
     return amountOriginal;
   }
